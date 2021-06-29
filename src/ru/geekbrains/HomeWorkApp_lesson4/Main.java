@@ -169,7 +169,7 @@ public class Main {
             public static void humanTurn() {
                 int x, y;
                 do {
-                    System.out.println("Введите координаты в формате X Y. сначала столбец, потом строка");
+                    System.out.println("Введите координаты в формате XY. сначала столбец, потом строка");
                     x = sc.nextInt() - 1;
                     y = sc.nextInt() - 1;
                 } while (!isCellValid(x, y)); // while(isCellValid(x, y) == false)
@@ -199,7 +199,7 @@ public class Main {
                 for (int i = 0; i < SIZE; i++) {
                     System.out.print((i + 1) + " ");
                     for (int j = 0; j < SIZE; j++) {
-                        System.out.print(map[i][j] + " ");
+                        System.out.print(map[i][j] + "  ");
                     }
                     System.out.println();
                 }
